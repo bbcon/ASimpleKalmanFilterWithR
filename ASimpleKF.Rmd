@@ -3,8 +3,9 @@ title: "Intuition, theory, and a simple application of the Kalman Filter"
 author: "Brendan Berthold"
 date: "4/8/2020"
 output:
+  pdf_document: default
   html_document:
-    number_sections: true
+    number_sections: yes
 editor_options:
   chunk_output_type: console
 bibliography: bibliography.bib
