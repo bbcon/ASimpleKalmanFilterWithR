@@ -9,7 +9,6 @@ phi <- 0.8
 sigma_sq_v <- 1
 sigma_sq_w <- 1
 
-write.csv()
 
 # Generating data
 n_periods <- 80
