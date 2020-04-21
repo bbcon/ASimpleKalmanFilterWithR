@@ -166,8 +166,8 @@ source("ASimpleKF.R")
 
 The state space model is of the form:
 \begin{align*}
-&y_t = \phi \xi_t + w_t \\
-&\xi_t = \xi_{t-1} + v_t
+&y_t =\xi_t + w_t \\
+&\xi_t = \phi\xi_{t-1} + v_t
 \end{align*}
 For simplicity, we assume that the transition equation is known with certainty and that $\phi=$ `r phi`. Moreover, we assume that $w_t$ and $v_t$ are i.i.d and independent of one another with $\sigma^2_w=$ `r sigma_sq_w` and $\sigma^2_v=$ `r sigma_sq_v`.
 
